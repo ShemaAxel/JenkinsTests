@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                echo "building..."
-                
+               echo "nothing .." > tryAppend 
             }
         }
         stage('Test') {
