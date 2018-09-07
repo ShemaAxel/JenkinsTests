@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                echo "building..."
-               echo "nothing .." > tryAppend.txt
+               echo "nothing .." > https://github.com/ShemaAxel/test/blob/master/tryAppend.txt
             }
         }
         stage('Test') {
