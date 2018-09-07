@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                echo "building..."
-               echo "nothing .." > tryAppend 
+               echo "nothing .." >> tryAppend.txt
             }
         }
         stage('Test') {
